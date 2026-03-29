@@ -1,14 +1,18 @@
 {
   "name": "dream-ai-server",
   "version": "1.0.0",
-  "description": "AI Dream Server",
+  "description": "AI Dream Interpretation Server",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "openai": "^4.0.0"
+    "express": "^4.21.2",
+    "openai": "^4.104.0"
   }
 }
